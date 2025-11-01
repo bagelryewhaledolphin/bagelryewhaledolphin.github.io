@@ -1,4 +1,21 @@
 
+h1 {
+  letter-spacing: 3px;
+  color: white;
+  text-align: center;
+  font-family: ;
+}
+
+p {
+  font-family: Georgia, serif;
+  font-size: 20px;
+}
+
+h1 {
+}
+
+Georgia, serif
+
 body {
   background-image: linear-gradient(to right, #7deb34, #34ebb4);
 }
