@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Page Title</title>
+    <title>Dynamic Graph Generator</title>
     <!-- Link to your CSS file (optional) -->
     <link rel="stylesheet" href="style.css">
 </head>
@@ -14,5 +14,18 @@
 
     <!-- Link to your JavaScript file (optional, often placed at the end of body for performance) -->
     <script src="script.js"></script>
+
+    <h2>Generate a Matplotlib Graph</h2>
+    <form action="/generate-graph" method="POST">
+        <label for="user_input_value">Enter a value (e.g., number of points):</label>
+        <input type="text" id="user_input_value" name="user_input_value" required>
+        <button type="submit">Generate Graph</button>
+    </form>
+
+    <!-- This div will display the graph -->
+    <div id="graph-container">
+        <!-- The graph image will appear here after the server processes the request -->
+    </div>
+    
 </body>
 </html>
